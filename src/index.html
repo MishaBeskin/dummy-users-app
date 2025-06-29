@@ -1,13 +1,16 @@
-<!doctype html>
+<!-- src/index.html -->
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>MyApp</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Angular App</title>
+    <base href="/" />
+    <!-- ✅ VERY IMPORTANT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <app-root></app-root>
+    <!-- ✅ Matches selector from AppComponent -->
+    <dialog id="app-modal"></dialog>
+  </body>
 </html>
